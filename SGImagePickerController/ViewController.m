@@ -20,7 +20,8 @@
     
 }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    SGImagePickerController *picker = [[SGImagePickerController alloc] initWithRootViewController:nil];
+    SGImagePickerController *picker = [[SGImagePickerController alloc] init];
+    picker.maxCount = 4;
     //返回选择的缩略图
     [picker setDidFinishSelectThumbnails:^(NSArray *thumbnails) {
         NSLog(@"缩略图%@",thumbnails);
