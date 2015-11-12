@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  SGImagePickerController
 //
-//  Created by yyx on 15/9/17.
-//  Copyright (c) 2015年 yyx. All rights reserved.
+//  Created by SG on 15/11/13.
+//  Copyright © 2015年 SG. All rights reserved.
 //
 
 #import "AppDelegate.h"
